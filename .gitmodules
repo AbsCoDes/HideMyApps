@@ -1,0 +1,6 @@
+[submodule "Commons"]
+	path = Commons
+	url = https://github.com/AbsCoDes-lib/Commons.git
+[submodule "Registry"]
+	path = Registry
+	url = https://github.com/AbsCoDes-lib/Registry.git

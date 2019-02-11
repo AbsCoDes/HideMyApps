@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resources\svg">
+      <UniqueIdentifier>{1a3ebde6-5bb8-4b6b-bd82-5713bb96f135}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HideMyAppsDlg.h" />
+    <ClInclude Include="RegListCtrl.h" />
+    <ClInclude Include="HideMyApps.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="AppsTabPage.h" />
+    <ClInclude Include="AppsTreeCtrl.h" />
+    <ClInclude Include="FileInfo.h" />
+    <ClInclude Include="AppKey.h" />
+    <ClInclude Include="RegTabPage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HideMyAppsDlg.cpp" />
+    <ClCompile Include="RegListCtrl.cpp" />
+    <ClCompile Include="HideMyApps.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="AppsTabPage.cpp" />
+    <ClCompile Include="AppsTreeCtrl.cpp" />
+    <ClCompile Include="FileInfo.cpp" />
+    <ClCompile Include="AppKey.cpp" />
+    <ClCompile Include="RegTabPage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HideMyApps.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\HideMyApps.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\Transparent.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\HideMyApps.rc2">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include=".clang-format" />
+    <None Include=".editorconfig" />
+    <None Include="res\employee.svg">
+      <Filter>Resources\svg</Filter>
+    </None>
+    <None Include="res\remove.svg">
+      <Filter>Resources\svg</Filter>
+    </None>
+    <None Include="res\team.svg">
+      <Filter>Resources\svg</Filter>
+    </None>
+  </ItemGroup>
+</Project>

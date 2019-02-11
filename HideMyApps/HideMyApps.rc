@@ -1,0 +1,274 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "bcgprores.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Anglais (États-Unis) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_HIDEMYAPPS_DIALOG DIALOGEX 0, 0, 425, 322
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HideMyApps"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROP_SHEET,"Static",SS_GRAYRECT | NOT WS_VISIBLE,0,7,425,315
+END
+
+IDD_APP_PAGE DIALOGEX 0, 0, 321, 217
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE,"Static",SS_GRAYRECT,0,21,320,196
+    LTEXT           "Programs installed for current user only",IDC_LABEL,5,9,312,8
+    LISTBOX         IDC_LIST,0,21,320,196,LBS_SORT | LBS_OWNERDRAWVARIABLE | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,1,0,0
+ PRODUCTVERSION 0,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "00000409"
+        BEGIN
+            VALUE "CompanyName", "Absolute Codes Design"
+            VALUE "FileDescription", "Hide programs installed on your computer."
+            VALUE "FileVersion", "0.1.0.0"
+            VALUE "InternalName", "HideMyApps.exe"
+            VALUE "LegalCopyright", "Absolute Codes Design"
+            VALUE "OriginalFilename", "HideMyApps.exe"
+            VALUE "ProductName", "Hide My Apps"
+            VALUE "ProductVersion", "0.1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1033
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_HIDEMYAPPS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 418
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 315
+    END
+
+    IDD_APP_PAGE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 309
+        BOTTOMMARGIN, 173
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_HIDEMYAPPS_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_APP_PAGE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""bcgprores.h""\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined (_BCGCBPRO_STATIC_)\r\n"
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\HideMyApps.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "#if defined (_BCGCBPRO_STATIC_)\r\n"
+    "#include ""BCGCBPro.rc""\r\n"
+    "#include ""Styles\\BCGPStyle2007Aqua.rc""\r\n"
+    "#include ""Styles\\BCGPStyle2007Luna.rc""\r\n"
+    "#include ""Styles\\BCGPStyle2007Obsidian.rc""\r\n"
+    "#include ""Styles\\BCGPStyle2007Silver.rc""\r\n"
+    "#include ""Styles\\BCGPStyle2010Blue.rc""\r\n"
+    "#include ""Styles\\BCGPStyle2010Black.rc""\r\n"
+    "#include ""Styles\\BCGPStyle2010White.rc""\r\n"
+    "#include ""Styles\\BCGPStyleCarbon.rc""\r\n"
+    "#include ""Styles\\BCGPStyleScenic.rc""\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\HideMyApps.ico"
+
+#endif    // Anglais (États-Unis) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Français (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_TRANSPARENT         ICON                    "res\\Transparent.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SVG
+//
+
+IDR_SVG_EMPLOYEE        SVG                     "res\\employee.svg"
+
+IDR_SVG_REMOVE          SVG                     "res\\remove.svg"
+
+IDR_SVG_TEAM            SVG                     "res\\team.svg"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR ACCELERATORS
+BEGIN
+    VK_F5,          ID_REFRESH,             VIRTKEY, NOINVERT
+END
+
+#endif    // Français (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined (_BCGCBPRO_STATIC_)
+#define _AFX_NO_SPLITTER_RESOURCES
+#endif
+
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\HideMyApps.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+#if defined (_BCGCBPRO_STATIC_)
+#include "BCGCBPro.rc"
+#include "Styles\BCGPStyle2007Aqua.rc"
+#include "Styles\BCGPStyle2007Luna.rc"
+#include "Styles\BCGPStyle2007Obsidian.rc"
+#include "Styles\BCGPStyle2007Silver.rc"
+#include "Styles\BCGPStyle2010Blue.rc"
+#include "Styles\BCGPStyle2010Black.rc"
+#include "Styles\BCGPStyle2010White.rc"
+#include "Styles\BCGPStyleCarbon.rc"
+#include "Styles\BCGPStyleScenic.rc"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
